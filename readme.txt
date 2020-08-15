@@ -16,4 +16,14 @@ $ ssh-keygen -t rsa -C "your@email.com"
 然后系统会自动在.ssh文件夹下生成两个文件，id_rsa和id_rsa.pub，用记事本打开id_rsa.pub
 ssh添加一个新的ssh钥匙
 git clone git@github.com:yiyi-mxx/gitskills.git//克隆远程库
+git branch dev//创建分支
+git chackout dev//切换分支
+git branch -b dev//合并上面两个命令
+git branch//列出所有分支
+head都是指向当前的工作区，如果你切换到dev分支，head就指向dev
+git merge dev//合并分支到master
+git branch -d dev//删除分支
+新版本使用 git switch -c dev//创建并切换分支
+git switch master//切换分区
+mmmmmmmmm
 
